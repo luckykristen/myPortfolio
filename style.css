@@ -1,0 +1,393 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.nav_item:hover {
+    background-color: #ff9a9aa2;
+    border-radius: 50px;
+    transition: 0.5s;
+    padding: 10px;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+    height: 70vh;
+}
+nav {
+    text-align: center;
+    margin: 1rem 0;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4CAF50;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: "Lora", serif;
+    font-weight: 300;
+}
+
+.hero {
+    height: 100vh;
+}
+
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #ee7f7f;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    height: auto;
+    width: 100%;
+    font-family: "Lora", serif;
+    font-weight: 300;
+}
+
+h1 {
+    font-family: "Lora", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.aboutMe {
+    font-style: italic;
+    font-size: 30px;
+}
+
+.welcome {
+    font-size: 35px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #ff9a9aa2;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: "Lora", serif;
+    font-weight: 300;
+}
+
+.btn:hover {
+    background-color: aquamarine;
+    transition-duration: 1s;
+    color: black;
+}
+
+#about {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-image: url(green_bg_pic.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-container {
+    display: flex;
+    align-items: first baseline;
+    background-color: #45ad49a8;
+    border-radius: 50px;
+    margin-left: 10px;
+    padding: 5px;
+    height: auto;
+    align-self: center;
+    flex-wrap: wrap;
+    color: white;
+    margin: 20px;
+}
+
+.certificate {
+    margin: 20px;
+    align-self: center;
+    width: 400px;
+    height: 300px;
+}
+
+.h2-about {
+    margin-left: 650px;
+    font-size: 40px;
+    font-family: "Lora", serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.about-me {
+    padding: 3px;
+    padding-left: 30px;
+    align-self: center;
+    font-family: "Lora", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 25px;
+}
+
+
+#recent-projects {
+    background-color: #4CAF50;
+    color: white;
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.img_project {
+    width: 250px;
+    height: 250px;
+}
+
+.h2-projects {
+    margin-top: 20px;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.p-projects {
+    font-family: "Lora", serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.rows {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 30px;
+    height: 300px;
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+.btn-projects {
+    background-color: #0e4710;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: "Lora", serif;
+    font-weight: 300;
+    font-style: normal;
+
+}
+
+.btn-projects:hover {
+    background-color: aquamarine;
+    transition-duration: 1s;
+    color: black;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.item:hover {
+    transform: scale(1.05);
+    transition: all 0.3s ease-in-out;
+}
+
+#contact-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    height: 80vh;
+    background-image: url(contact_picture.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.a_icon {
+    width: 60px;
+    height: 60px;
+    margin-left: 60px;
+}
+
+.a_icon:hover {
+    transform: scale(1.5);
+    transition: all 0.3s ease-in-out;
+}
+
+
+.go-top-btn {
+    position: fixed;
+    bottom: 70px;
+    right: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 70px;
+    width: 70px;
+    border: 3px solid green;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.go-top-btn img {
+    width: 60px;
+    height: 60px;
+}
+
+
+@media all and (max-width: 600px) {
+
+    nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 600px;
+    }
+
+    .nav_item {
+        font-size: 20px;  
+    }
+
+    .hero {
+        width: 600px;
+        padding: 10px;
+    }
+
+    #about {
+        height: auto;
+        width: 600px;
+        padding: 10px;
+    }
+
+    .about-container {
+        width: auto;
+        flex-direction: column;
+        font-size: 16px;
+    }
+
+    .certificate {
+        width: 300px;
+        height: 250px;
+        margin: 0;
+    }
+
+    #recent-projects {
+        height: auto;
+        width: 600px;
+        padding: 10px;
+    }
+
+    #contact-container {
+        width: 600px;
+        padding: 10px;
+        background-image: url(pic500pic.png);
+        background-position: calc(45% - 40px);;
+    }
+
+    .go-top-btn {
+        bottom: 90px;
+        right: 60px;
+        height: 30px;
+        width: 30px;
+    }
+}
+
+
+@media all and (max-width: 800px) {
+
+    .h2-about {
+        margin-left: 250px;
+    }
+
+    .about-container {
+        height: auto;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    .hero {
+        height: auto;
+    }
+
+    #recent-projects {
+        height: auto;
+        padding: 10px;
+    }
+
+    .img_project {
+        margin: 10px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .hero {
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    #about {
+        height: auto;
+    }
+
+    .h2-about {
+        margin-left: 400px;
+    }
+
+    .certificate {
+        width: 500px;
+        height: 400px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+    }
+
+    #recent-projects {
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    #contact {
+        width: auto;
+    }
+
+    #contact-container {
+        background-image: url(pic1200.png);
+    }
+
+    .a_icon {
+        width: 90px;
+        height: 90px;
+    }
+
+    .rows {
+        margin-bottom: 20px;
+    }
+
+    .p-projects {
+        font-size: 25px;
+        margin-top: 0px;
+    }
+}
+
