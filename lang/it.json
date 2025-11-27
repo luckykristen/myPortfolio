@@ -1,0 +1,66 @@
+{
+    "nav": {
+        "about": "Su di me",
+        "skills": "Competenze",
+        "projects": "Progetti",
+        "contact": "Contatto"
+    },
+    "hero": {
+        "title": "Ciao, sono",
+        "subtitle": "Sviluppatore web junior specializzato in siti web puliti e reattivi."
+    },
+    "buttons": {
+        "projects": "I miei progetti",
+        "contact": "Contattami"
+    },
+    "about": {
+        "title": "Chi sono",
+        "text1": "Sono una junior web developer con solide basi in HTML, CSS e JavaScript, acquisite grazie a una formazione strutturata presso la scuola online CanSheCode.",
+        "text2": "Mi piace creare siti web puliti, responsive e user-friendly e migliorare costantemente le mie competenze nello sviluppo frontend moderno. Attualmente continuo la mia formazione ed espando le mie conoscenze nello sviluppo web moderno.",
+        "text3": "Sono una persona motivata e affidabile, con una forte etica del lavoro. So lavorare bene sia in team che in modo indipendente. Do grande importanza all'integrità, all'apprendimento continuo e alla qualità dei risultati.",
+        "text4": "Parlo ceco, russo e inglese. Fuori dal mondo del coding amo la natura, il caffé, i viaggi e trascorrere il tempo con i miei due cani.",
+        "text5": "🤝 Se hai bisogno di un nuovo sito web o vuoi migliorare quello esistente, scrivimi pure un'e-mail con la tua idea di collaborazione. Attualmente sono alla ricerca di nuove opportunità nello sviluppo frontend. Preferisco collaborazioni con partita IVA."
+    },
+    "skills": {
+        "title": "Competenze",
+        "html": "Livello avanzato",
+        "css": "Livello intermedio",
+        "js": "Livello intermedio",
+        "react": "Livello base",
+        "git": "Livello intermedio",
+        "design": "Livello avanzato"
+    },
+    "projects": {
+        "title": "Non fidarti solo della mia parolla",
+        "subtitle": "Ecco alcuni dei miei progetti recenti che puoi esplorare👇",
+        "button": "Guarda tutti i miei progetti",
+    
+        "coffee": {
+            "title": "Sito per caffetteria",
+            "desc": "Landing page moderna per un café"
+        },
+        "furniture": {
+            "title": "Negozio di mobiliti",
+            "desc": "Design responsive per e-commerce"
+        },
+        "weather": {
+            "title": "App meteo",
+            "desc": "Sito di previsioni meteo basato su API"
+        },
+        "advocate": {
+            "title": "Sito per avvocato",
+            "desc": "Design aziendale pulito e professionale"
+        },
+        "bill": {
+            "title": "App per dividere le spese",
+            "desc": "Strumento semplice per la gestione delle spese condivise"
+        }
+    },
+    "contact": {
+        "title": "Mettiamoci in contatto",
+        "subtitle": "Puoi contattarmi in qualsiasi momento!"
+    },
+    "footer": {
+        "copyright": "@ 2025 Kristina Kalíková. Tutti i diritti riservati."
+    }
+}

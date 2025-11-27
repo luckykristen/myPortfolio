@@ -122,4 +122,52 @@ gsap.fromTo(".skill-card",
     }
 );
 
+async function loadLanguage(lang) {
+    try {
+        const response = await fetch( `lang/${lang}.json`);
+        const translations = await response.json();
+
+        document.querySelectorAll("[data-i18n]").forEach(el => {
+            const keys = el.dataset.i18n.split(".");
+            let text = translations;
+
+            keys.forEach(key => {
+                text = text[key];
+            });
+
+            if (text) {
+                el.textContent = text;
+            }
+        });
+    } catch (error) {
+        console.error("Translation loading error:"), error;
+    }
+}
+
+function setActiveLang(lang) {
+    document.querySelectorAll("[data-lang]").forEach(btn => {
+        btn.classList.toggle("active", btn.dataset.lang === lang);
+    });
+};
+
+document.querySelectorAll("[data-lang]").forEach(button => {
+    button.addEventListener("click", () => {
+        const lang = button.dataset.lang;
+        loadLanguage(lang);
+        setActiveLang(lang);
+        document.documentElement.lang = lang;
+        localStorage.setItem("lang", lang);
+    });
+});
+
+const savedLang = localStorage.getItem("lang")  || "en";
+    loadLanguage(savedLang);
+    setActiveLang(savedLang);
+    document.documentElement.lang = savedLang;
+
+document.querySelectorAll(".nav-links a").forEach(link => {
+    link.addEventListener("click", () => {
+        navLinks.classList.remove("active");
+    });
+});
 

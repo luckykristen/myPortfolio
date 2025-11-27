@@ -1,0 +1,66 @@
+{
+    "nav": {
+        "about": "About",
+        "skills": "Skills",
+        "projects": "Projects",
+        "contact": "Contact"
+    },
+    "hero": {
+        "title": "Hello, I'm",
+        "subtitle": "Junior web developer focused on clean, responsive websites."
+    },
+    "buttons": {
+        "projects": "View my projects",
+        "contact": "Contact me"
+    },
+    "about": {
+        "title": "About me",
+        "text1": "I am a junior web developer with a solid foundation in HTML, CSS, and JavaScript, gained through structured training at the CanSheCode online school.",
+        "text2": "I enjoy building clean, responsive, user-friendly websites and continuously improving my skills in modern front-end development. Currently continuing my education and expanding my skills in modern web development.",
+        "text3": "I am a dedicated and self-motivated individual with a strong work ethic, able to collaborate effectively in a team environment as well as work independently. I value integrity, continuous learning, and delivering high-quality results.",
+        "text4": "I speak Czech, Russian and English. Outside of coding, I love nature, coffee, traveling and spending time with my two dogs.",
+        "text5": "🤝 If you need a new website - or want to improve an existing one - feel free to email me with your idea of how we could work together. I'm currently looking for new job opportunities in frontend development. I prefer cooperation on a freelance."
+    },
+    "skills": {
+        "title": "Skills",
+        "html": "Confident",
+        "css": "Intermediate",
+        "js": "Intermediate",
+        "react": "Beginner",
+        "git": "Intermediate",
+        "design": "Confident"
+    },
+    "projects": {
+        "title": "Don't just take my word for it!",
+        "subtitle": "Here are some recent websites you can explore for yourself👇",
+        "button": "See all my projects here",
+    
+        "coffee": {
+            "title": "Coffee Place Website",
+            "desc": "Modern landing page for a café"
+        },
+        "furniture": {
+            "title": "Furniture shop",
+            "desc": "Responsive e-commerce design"
+        },
+        "weather": {
+            "title": "Weather App",
+            "desc": "API-based forecast website"
+        },
+        "advocate": {
+            "title": "Advocate Website",
+            "desc": "Clean business website design"
+        },
+        "bill": {
+            "title": "Split Bill App",
+            "desc": "Simple bill-sharing tool"
+        }
+    },
+    "contact": {
+        "title": "Let's get in touch",
+        "subtitle": "You can reach out to me anytime!"
+    },
+    "footer": {
+        "copyright": "@ 2025 Kristina Kalíková. All rights reserved."
+    }
+}

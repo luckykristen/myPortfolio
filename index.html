@@ -9,7 +9,6 @@
     <meta name="author" content="Kristina Kalikova">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#ffffff">
-
     <link rel="icon" type="image/png" href="/favicon-96x96.png" sizes="96x96">
     <link rel="icon" type="image/svg+xml" href="/favicon.svg">
     <link rel="icon" type="image/png" href="favicon.svg">
@@ -43,10 +42,24 @@
                 <span>Kristina.dev</span></div>
 
             <div class="nav-links">
-                <a href="#about">About</a>
-                <a href="#skills">Skills</a>
-                <a href="#recent-projects">Projects</a>
-                <a href="#contact">Contact</a>
+                <a href="#about" data-i18n="nav.about">About</a>
+                <a href="#skills" data-i18n="nav.skills">Skills</a>
+                <a href="#recent-projects" data-i18n="nav.projects">Projects</a>
+                <a href="#contact" data-i18n="nav.contact">Contact</a>
+            </div>
+
+            <div class="lang-switcher mobile">
+                <button data-lang="en">EN</button>
+                <button data-lang="cz">CZ</button>
+                <button data-lang="ru">RU</button>
+                <button data-lang="it">IT</button>
+            </div>
+
+            <div class="lang-switcher desktop">
+                <button data-lang="en">EN</button>
+                <button data-lang="cz">CZ</button>
+                <button data-lang="ru">RU</button>
+                <button data-lang="it">IT</button>
             </div>
         </div>
     </nav>
@@ -55,13 +68,16 @@
         <div class="hero-content">
             <img src="image.crop.png" alt="profile picture" class="hero-avatar">
 
-            <h1>Hello, I'm <span>Kristina</span></h1>
+            <h1>
+                <span data-i18n="hero.title">Hello, I'm</span> 
+                <span class="highlight">Kristina</span>
+            </h1>
 
-            <p class="hero-subtitle">Junior web developer focused on clean, responsive websites.</p>
+            <p class="hero-subtitle" data-i18n="hero.subtitle">Junior web developer focused on clean, responsive websites.</p>
 
         <div class="hero-buttons">
-            <a href="#recent-projects" class="btn-primary">View my projects</a>
-            <a href="#contact" class="btn-secondary">Contact me</a>
+            <a href="#recent-projects" class="btn-primary" data-i18n="buttons.projects">View my projects</a>
+            <a href="#contact" class="btn-secondary" data-i18n="buttons.contact">Contact me</a>
         </div>
         </div>
     </header>
@@ -70,20 +86,20 @@
         <img src="certificate.png" alt="certificate" class="certificate">
 
             <div class="about-container">
-                <h2 class="about-title">About me</h2>
+                <h2 class="about-title" data-i18n="about.title">About me</h2>
 
-                <p class="about-text">I am a junior web developer with a solid foundation in HTML, CSS, and JavaScript, gained through structured training at the CanSheCode online school.</p>
-                <p class="about-text">I enjoy building clean, responsive, user-friendly websites and continuously improving my skills in modern front-end development. 
+                <p class="about-text" data-i18n="about.text1">I am a junior web developer with a solid foundation in HTML, CSS, and JavaScript, gained through structured training at the CanSheCode online school.</p>
+                <p class="about-text" data-i18n="about.text2">I enjoy building clean, responsive, user-friendly websites and continuously improving my skills in modern front-end development. 
                     Currently continuing my education and expanding my skills in modern web development.</p>
-                <p class="about-text">I am a dedicated and self-motivated individual with a strong work ethic, able to collaborate effectively in a team environment as well as work independently. 
+                <p class="about-text" data-i18n="about.text3">I am a dedicated and self-motivated individual with a strong work ethic, able to collaborate effectively in a team environment as well as work independently. 
                     I value integrity, continuous learning, and delivering high-quality results.</p> 
-                <p class="about-text">I speak Czech, Russian and English. Outside of coding, I love nature, coffee, traveling and spending time with my two dogs.</p>
-                <p class="about-text">🤝 If you need a new website - or want to improve an existing one - feel free to email me with your idea of how we could work together.</p>              
+                <p class="about-text" data-i18n="about.text4">I speak Czech, Russian and English. Outside of coding, I love nature, coffee, traveling and spending time with my two dogs.</p>
+                <p class="about-text" data-i18n="about.text5">🤝 If you need a new website - or want to improve an existing one - feel free to email me with your idea of how we could work together.</p>              
             </div>
     </section>
 
     <section id="skills">
-        <h2 class="skills-title">Skills</h2>
+        <h2 class="skills-title" data-i18n="skills.title">Skills</h2>
 
         <div class="skills-grid">
 
@@ -92,7 +108,7 @@
                     <img src="html_icon.png" alt="HTML icon">
                 </div>
                 <h3>HTML5</h3>
-                <p>Confident</p>
+                <p data-i18n="skills.html">Confident</p>
             </div>
 
             <div class="skill-card">
@@ -100,7 +116,7 @@
                     <img src="css_icon.png" alt="CSS icon">
                 </div>
                 <h3>CSS3</h3>
-                <p>Intermediate</p>
+                <p data-i18n="skills.css">Intermediate</p>
             </div>
 
             <div class="skill-card">
@@ -108,7 +124,7 @@
                     <img src="javascript_icon.png" alt="JS icon">
                 </div>
                 <h3>JavaScript</h3>
-                <p>Intermediate</p>
+                <p data-i18n="skills.js">Intermediate</p>
             </div>
 
             <div class="skill-card">
@@ -116,7 +132,7 @@
                     <img src="react_icon.png" alt="React icon">
                 </div>
                 <h3>React</h3>
-                <p>Beginner</p>
+                <p data-i18n="skills.react">Beginner</p>
             </div>
 
             <div class="skill-card">
@@ -124,7 +140,7 @@
                     <img src="git_icon.png" alt="Git icon">
                 </div>
                 <h3>Git & Github</h3>
-                <p>Intermediate</p>
+                <p data-i18n="skills.git">Intermediate</p>
             </div>
 
             <div class="skill-card">
@@ -132,17 +148,17 @@
                     <img src="responsive_icon.png" alt="Responsive icon">
                 </div>
                 <h3>Responsive Design</h3>
-                <p>Confident</p>
+                <p data-i18n="skills.design">Confident</p>
             </div>
         </div>
     </section>
 
     <section id="recent-projects">
         
-            <h2 class="h2-projects">Don't just take my word for it!</h2>
-            <p class="p-projects">Here are some recent websites you can explore for yourself!👇</p>
+            <h2 class="h2-projects" data-i18n="projects.title">Don't just take my word for it!</h2>
+            <p class="p-projects" data-i18n="projects.subtitle">Here are some recent websites you can explore for yourself!👇</p>
 
-            <a href="https://github.com/luckykristen/" target="_blank" class="btn-projects">
+            <a href="https://github.com/luckykristen/" target="_blank" class="btn-projects" data-i18n="projects.button">
                 See all my projects here
             </a>
 
@@ -152,48 +168,48 @@
                 <a href="https://luckykristen.github.io/coffeeplace/" target="_blank">
                     <img src="Website of Coffee Place.png" alt="coffee place" class="img_project">
                 </a>
-                <h3 class="item-title">Coffee Place Website</h3>
-                <p class="item-desc">Modern landing page for a café</p>
+                <h3 class="item-title" data-i18n="projects.coffee.title">Coffee Place Website</h3>
+                <p class="item-desc" data-i18n="projects.coffee.desc">Modern landing page for a café</p>
             </div>
 
             <div class="item">
                 <a href="https://luckykristen.github.io/furniture/" target="_blank">
                     <img src="Website_furniture_shop.png" alt="furniture shop" class="img_project">
                 </a>
-                <h3 class="item-title">Furniture Shop</h3>
-                <p class="item-desc">Responsive e-commerce design</p>
+                <h3 class="item-title" data-i18n="projects.furniture.title">Furniture Shop</h3>
+                <p class="item-desc" data-i18n="projects.furniture.desc">Responsive e-commerce design</p>
             </div>
 
             <div class="item">
                 <a href="https://luckykristen.github.io/weather/" target="_blank">
                     <img src="Website_weather.png" alt="weather website" class="img_project">
                 </a>
-                <h3 class="item-title">Weather App</h3>
-                <p class="item-desc">API-based forecast website</p>
+                <h3 class="item-title" data-i18n="projects.weather.title">Weather App</h3>
+                <p class="item-desc" data-i18n="projects.weather.desc">API-based forecast website</p>
             </div>
 
             <div class="item">
                 <a href="https://luckykristen.github.io/advocate_company/" target="_blank">
                     <img src="Website of Advocate.png" alt="Advocate Company website" class="img_project">
                 </a>
-                <h3 class="item-title">Advocate Website</h3>
-                <p class="item-desc">Clean business website design</p>
+                <h3 class="item-title" data-i18n="projects.advocate.title">Advocate Website</h3>
+                <p class="item-desc" data-i18n="projects.advocate.desc">Clean business website design</p>
             </div>
 
             <div class="item">
                 <a href="https://luckykristen.github.io/splitBill/" target="_blank">
                     <img src="Website of Split Bill.png" alt="Split Bill website" class="img_project">
                 </a>
-                <h3 class="item-title">Split Bill App</h3>
-                <p class="item-desc">Simple bill-sharing tool</p>
+                <h3 class="item-title" data-i18n="projects.bill.title">Split Bill App</h3>
+                <p class="item-desc" data-i18n="projects.bill.desc">Simple bill-sharing tool</p>
             </div>
         </div>
     </section>
 
     <section id="contact">
         <div class="contact-wrapper">
-            <h2 class="contact-title">Let's get in touch</h2>
-            <p class="contact-subtitle">You can reach out to me anytime!</p>
+            <h2 class="contact-title" data-i18n="contact.title">Let's get in touch</h2>
+            <p class="contact-subtitle" data-i18n="contact.subtitle">You can reach out to me anytime!</p>
 
             <div class="contact-icons">
                 <a href="mailto: kristina@kristinakalikova.dev" class="contact-icon" target="_blank">
@@ -213,7 +229,7 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 Kristina Kalíková. All rights reserved.</p>
+        <p data-i18n="footer.copyright">&copy; 2025 Kristina Kalíková. All rights reserved.</p>
     </footer>
 
 <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
