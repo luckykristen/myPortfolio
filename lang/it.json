@@ -3,6 +3,7 @@
         "about": "Su di me",
         "skills": "Competenze",
         "projects": "Progetti",
+        "faq": "Domande",
         "contact": "Contatto"
     },
     "hero": {
@@ -62,5 +63,34 @@
     },
     "footer": {
         "copyright": "@ 2025 Kristina Kalíková. Tutti i diritti riservati."
-    }
+    },
+    "faq": {
+        "title": "Domande frequenti",
+        "items": [
+            {
+                "question": "Come funziona la collaborazione?",
+                "answer": "Iniziamo con una breve consulenza per discutere i tuoi obiettivi, le idee e i requisiti. Una volta definiti tutti i dettagli, inizio lo sviluppo del sito e ti aggiorno regolarmente sui progressi."
+            },
+            {
+                "question": "Quali informazioni ti servono da parte mia?",
+                "answer": "All’inizio ho solitamente bisogno dei tuoi contenuti, come testi e immagini, della tua idea di sito web e di eventuali esempi che ti piacciono. Se non hai ancora tutto chiaro, nessun problema: sarò felice di aiutarti."
+            },
+            {
+                "question": "Quanto tempo serve per realizzare un sito web?",
+                "answer": "La tempistica dipende dalla dimensione e dalla complessità del progetto. Un sito semplice richiede solitamente 1–2 settimane, mentre progetti più complessi possono richiedere più tempo."
+            },
+            {
+                "question": "Il sito sarà responsive?",
+                "answer": "Sì. Ogni sito che realizzo è completamente responsive e ottimizzato per dispositivi mobili, tablet e desktop."
+            },
+            { 
+                "question": "Posso richiedere modifiche dopo la consegna del sito?",
+                "answer": "Sì. Piccole modifiche sono incluse dopo la consegna. Per cambiamenti più grandi o nuove funzionalità, possiamo accordarci successivamente."
+            },
+            {
+                "question": "Quanto costa un sito web?",
+                "answer": "Il prezzo dipende dall’ambito e dai requisiti del progetto. Ogni sito viene valutato singolarmente in base alle tue esigenze. Scrivimi un’email con la tua idea del sito web e preparerò per te un preventivo indicativo senza impegno."
+            }
+        ]
+    }    
 }

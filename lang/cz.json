@@ -3,6 +3,7 @@
         "about": "O mně",
         "skills": "Dovednosti",
         "projects": "Projekty",
+        "faq": "Otázky",
         "contact": "Kontakt"
     },
     "hero": {
@@ -62,5 +63,34 @@
     },
     "footer": {
         "copyright": "@ 2025 Kristina Kalíková. Všechna práva vyhrazena."
+    },
+    "faq": {
+        "title": "Často kladené otázky",
+        "items": [
+            {
+                "question": "Jak probíhá spolupráce?",
+                "answer": "Spolupráci začínáme krátkou telefonickou konzultací (cca 10-15 minut), kde si ujasníme vaše cíle, představy a požadavky. Jakmile si vše schválíme, pustím se do vývoje webu a průběžně vás informuji o dalším postupu. "
+            },
+            {
+                "question": "Jaké informace ode mě budete potřebovat?",
+                "answer": "Na začátku obvykle potřebuji váš obsah - napříkad texty a obrázky, představu o webu a případně ukázku webů, které se vám líbí. Pokud zatím nemáte vše jasné, nevadí - ráda vám s tím pomohu a provedu vás celým procesem."
+            },
+            {
+                "question": "Jak dlouho trvá vytvoření webu?",
+                "answer": "Doba realizace záleží na velikosti a složitosti projektu. Jednoduchý web obvykle trvá 1-2 týdny, složitější projekty mohou zabrat více času."
+            },
+            {
+                "question": "Bude web responzivní?",
+                "answer": "Ano. Každý web, který vytvářím, je plně responzivní a optimalizovaný pro mobilní telefony, tablety i počítače."
+            },
+            { 
+                "question": "Mohu po dokončení webu požadovat úpravy?",
+                "answer": "Ano. Menší úpravy jsou zahrnuty po odevzdání webu. Pokud byste později chtěli větší změny nebo nové funkce, můžeme se domluvit na dalším postupu."
+            },
+            {
+                "question": "Kolik webové stránky stojí?",
+                "answer": "Cena závisí na rozsahu a náročnosti projektu. Každý web naceňuji individuálně podle vašich konkrétních požadavků. Napište mi e-mail s vaší představou webu a připravím vám nezávaznou cenovou nabídku."
+            }
+        ]
     }
 }

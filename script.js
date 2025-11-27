@@ -139,8 +139,11 @@ async function loadLanguage(lang) {
                 el.textContent = text;
             }
         });
+
+        renderFAQ(translations);
+
     } catch (error) {
-        console.error("Translation loading error:"), error;
+        console.error("Translation loading error:", error);
     }
 }
 
@@ -169,5 +172,88 @@ document.querySelectorAll(".nav-links a").forEach(link => {
     link.addEventListener("click", () => {
         navLinks.classList.remove("active");
     });
+});
+
+
+
+function renderFAQ(data) {
+    const faqList = document.getElementById("faq-list");
+    if (!faqList || !data.faq) return;
+
+    faqList.innerHTML = "";
+
+    data.faq.items.forEach(item => {
+        const faqItem = document.createElement("div");
+        faqItem.classList.add("faq-item");
+
+        faqItem.innerHTML = `
+        <button class="faq-question">
+        ${item.question}
+        <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+        <p>${item.answer}</p>
+        </div>
+        `;
+
+        faqList.appendChild(faqItem);
+    });
+
+    initFAQAccordion();
+    renderFAQSchema(data.faq.items);
+}
+
+function initFAQAccordion() {
+    const buttons = document.querySelectorAll(".faq-question");
+
+    buttons.forEach(btn => {
+        btn.addEventListener("click", () => {
+            const currentItem = btn.parentElement;
+            const isOpen = currentItem.classList.contains("open");
+
+            document.querySelectorAll(".faq-item.open").forEach(item => {
+                item.classList.remove("open");
+            });
+
+            if (!isOpen) {
+                currentItem.classList.add("open");
+            }
+        });
+    });
+}
+
+function renderFAQSchema(faqItems) {
+    const schema = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": faqItems.map(item => ({
+            "@type": "Question",
+            "name": item.question,
+            "acceptedAnswer": {
+                "@type": "Answer",
+                "text": item.answer
+            }
+        }))
+    };
+
+    const script = document.getElementById("faq-schema");
+    if (script) {
+        script.textContent = JSON.stringify(schema, null, 2);
+    }
+}
+
+const toggle = document.querySelector(".nav-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+if (toggle && navLinks) {
+    toggle.addEventListener("click", () => {
+        navLinks.classList.toggle("active");
+    });
+}
+
+document.querySelectorAll(".nav-links a").forEach(link => {
+        link.addEventListener("click", () => {
+            navLinks.classList.remove("active");
+        });
 });
 

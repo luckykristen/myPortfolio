@@ -3,6 +3,7 @@
         "about": "About",
         "skills": "Skills",
         "projects": "Projects",
+        "faq": "Questions",
         "contact": "Contact"
     },
     "hero": {
@@ -62,5 +63,34 @@
     },
     "footer": {
         "copyright": "@ 2025 Kristina Kalíková. All rights reserved."
+    },
+    "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+            {
+                "question": "How does the cooperation work?",
+                "answer": "We start with a short consultation where we discuss your goals, ideas, and requirements. After that, I prepare a clear plan and timeline. Once everything is agreed on, I start developing the website and keep you updated throuhout the process."
+            },
+            {
+                "question": "What information do you need from me?",
+                "answer": "At the beginning, I usually need your content e.g. text and images, your idea of the website, and any examples you like. If you're not sure about everything yet, that's completely fine - I can help you guide you through the process."
+            },
+            {
+                "question": "How long does it take to build a website?",
+                "answer": "The timeline depends on the size and complexity of the project. A simple website usually takes 1-2 weeks, while more complex projects may take longer."
+            },
+            {
+                "question": "Is the website responsive?",
+                "answer": "Yes, every website I build is fully responsive and optimized for mobile, tablet, and desktop devices."
+            },
+            { 
+                "question": "Can I request changes after the website is finished?",
+                "answer": "Yes. Minor adjustments are included after delivery. If you need larger changes or new features later on, we can easily arrange additional work."
+            },
+            {
+                "question": "How much does a website cost?",
+                "answer": "The price depends on the scope and requirements of the project. Each project is prices individually - feel free to contact me for a non-binding quote."
+            }
+        ]
     }
 }
