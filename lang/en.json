@@ -16,11 +16,11 @@
     },
     "about": {
         "title": "About me",
-        "text1": "I am a junior web developer with a solid foundation in HTML, CSS, and JavaScript, gained through structured training at the CanSheCode online school.",
+        "text1": "I am a junior web developer with a solid foundation in HTML, CSS, and JavaScript, gained through structured training at the CanSheCode online school. I am currently a university student in Software Engineering, where I continue to develop my skills in modern web development and software engineering.",
         "text2": "I enjoy building clean, responsive, user-friendly websites and continuously improving my skills in modern front-end development. Currently continuing my education and expanding my skills in modern web development.",
         "text3": "I am a dedicated and self-motivated individual with a strong work ethic, able to collaborate effectively in a team environment as well as work independently. I value integrity, continuous learning, and delivering high-quality results.",
         "text4": "I speak Czech, Russian and English. Outside of coding, I love nature, coffee, traveling and spending time with my two dogs.",
-        "text5": "🤝 If you need a new website - or want to improve an existing one - feel free to email me with your idea of how we could work together. I'm currently looking for new job opportunities in frontend development. I prefer cooperation on a freelance."
+        "text5": "🤝 If you need a new website - or want to improve an existing one - feel free to email me with your idea of how we could work together. I'm currently looking for new job opportunities in frontend development."
     },
     "skills": {
         "title": "Skills",
@@ -40,9 +40,9 @@
             "title": "Coffee Place Website",
             "desc": "Modern landing page for a café"
         },
-        "furniture": {
-            "title": "Furniture shop",
-            "desc": "Responsive e-commerce design"
+        "holiday": {
+            "title": "Holiday House",
+            "desc": "Responsive website for holiday rental"
         },
         "weather": {
             "title": "Weather App",

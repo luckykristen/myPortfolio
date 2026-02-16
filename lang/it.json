@@ -16,11 +16,11 @@
     },
     "about": {
         "title": "Chi sono",
-        "text1": "Sono una junior web developer con solide basi in HTML, CSS e JavaScript, acquisite grazie a una formazione strutturata presso la scuola online CanSheCode.",
+        "text1": "Sono una junior web developer con solide basi in HTML, CSS e JavaScript, acquisite grazie a una formazione strutturata presso la scuola online CanSheCode. Attualmente sono studentessa universitaria in Software Engineering, dove continuo a sviluppare le mie competenze nello sviluppo web moderne e nell'ingegneria del software.",
         "text2": "Mi piace creare siti web puliti, responsive e user-friendly e migliorare costantemente le mie competenze nello sviluppo frontend moderno. Attualmente continuo la mia formazione ed espando le mie conoscenze nello sviluppo web moderno.",
         "text3": "Sono una persona motivata e affidabile, con una forte etica del lavoro. So lavorare bene sia in team che in modo indipendente. Do grande importanza all'integrità, all'apprendimento continuo e alla qualità dei risultati.",
         "text4": "Parlo ceco, russo e inglese. Fuori dal mondo del coding amo la natura, il caffé, i viaggi e trascorrere il tempo con i miei due cani.",
-        "text5": "🤝 Se hai bisogno di un nuovo sito web o vuoi migliorare quello esistente, scrivimi pure un'e-mail con la tua idea di collaborazione. Attualmente sono alla ricerca di nuove opportunità nello sviluppo frontend. Preferisco collaborazioni con partita IVA."
+        "text5": "🤝 Se hai bisogno di un nuovo sito web o vuoi migliorare quello esistente, scrivimi pure un'e-mail con la tua idea di collaborazione. Attualmente sono alla ricerca di nuove opportunità nello sviluppo frontend."
     },
     "skills": {
         "title": "Competenze",
@@ -40,9 +40,9 @@
             "title": "Sito per caffetteria",
             "desc": "Landing page moderna per un café"
         },
-        "furniture": {
-            "title": "Negozio di mobiliti",
-            "desc": "Design responsive per e-commerce"
+        "holiday": {
+            "title": "Casa vacanza",
+            "desc": "Sito web responsive per casa vacanze"
         },
         "weather": {
             "title": "App meteo",
