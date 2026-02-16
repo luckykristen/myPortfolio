@@ -543,7 +543,7 @@ body {
     transform: scale(1.1);
 }
 
-footer {
+.footer {
     text-align: center;
     padding: 25px 0;
     background: linear-gradient(90deg, #6c63ff, #a394ff);
